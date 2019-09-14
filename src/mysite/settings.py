@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'snippets.apps.SnippetsConfig',
+
+
 ]
 
 AUTH_USER_MODEL = 'account.Account'
@@ -92,9 +93,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blog',
-        'USER':'bishal',
-        'PASSWORD':'123456',
+        'NAME': 'blog_api',
+        'USER':'postgres',
+        'PASSWORD':'',
         'HOST':'localhost'
 
 
